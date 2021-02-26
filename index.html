@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link href="./style.css"type="text/css"rel="stylesheet">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Password Generator</title>
+    </head>
+    <body>
+        <header>Password Generator</header>
+           <div class="card">
+               <div class="row"> 
+                   <div class="col-lg-10 col-sm-12">
+                       <div class="info">
+                           <h4>Random Password Generator</h4>
+                           <input type="text" id="display">
+                           <br>
+                           <input type="range" min="0" max="40" name="slider" id="slider">
+                           <br>
+                           <button onclick="generate()">Generate</button>
+                           <button onclick="copyPassword()">Copy</button>
+                           <div id="length"></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <section class="previous-codes">
+               <h5><strong>Previous Generated Codes</strong></h5>
+               <class id="lastPasswords"></class>
+           </section>
+           <script src="script.js"></script>
+    </body>
+</html>

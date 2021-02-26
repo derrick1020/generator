@@ -1,0 +1,38 @@
+.card {
+    background-color: gray;
+    border-style: groove;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+header {
+    background-color: aqua;
+    font-size: 24px;
+    font: bold;
+    padding: 10px;
+}
+h4 {
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 0%;
+    color: aqua;
+}
+.info {
+    position: relative;
+    top:20%;
+    left: 24%;
+}
+#display {
+    width: 50%;
+}
+#slider {
+    width: 50%;
+}
+.previous-codes {
+    margin-bottom: 40px;
+}
+#length {
+    display: inline-block;
+    width: 150px;
+    color:aqua;
+}
