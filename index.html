@@ -10,12 +10,12 @@
         <header>Password Generator</header>
            <div class="card">
                <div class="row"> 
-                   <div class="col-lg-10 col-sm-12">
+                   <div class="genbox">
                        <div class="info">
                            <h4>Random Password Generator</h4>
                            <input type="text" id="display">
                            <br>
-                           <input type="range" min="0" max="40" name="slider" id="slider">
+                           <input type="range" min="6" max="40" name="slider" id="slider">
                            <br>
                            <button onclick="generate()">Generate</button>
                            <button onclick="copyPassword()">Copy</button>
@@ -25,8 +25,10 @@
                </div>
            </div>
            <section class="previous-codes">
-               <h5><strong>Previous Generated Codes</strong></h5>
-               <class id="lastPasswords"></class>
+                <div class="inside">
+                  <h5><strong>Previous Generated Codes</strong></h5>
+                  <div class id="lastPasswords"></div>
+                </div>
            </section>
            <script src="script.js"></script>
     </body>
